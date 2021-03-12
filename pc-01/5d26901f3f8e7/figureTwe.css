@@ -1,0 +1,383 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.warp{
+			width:1366px;
+			height:1000px;
+			margin:0px auto;
+		}
+		.banner{
+			position:relative;
+			width:100%;
+			height:770px;
+			background-color:blue;
+			background: url("./gallery2/quotientChart.png");
+		}
+		.banner .logo{
+			width:33px;
+			height:50px;
+			background: url("./gallery2/logo.png");
+			background-size: 100% 100%;
+			position:absolute;
+			top:50px;
+			left:95px;
+		}
+		.banner-title{
+			width:100px;
+			height:100px;
+			background:red;
+			position:absolute;
+			top:150px;
+			left:195px;
+		}
+		.mean{
+			width:285px;
+			height:100%;
+			background-color:#ffffff;
+			position:absolute;
+			top:0px;
+			right:0px;
+		}
+		.mean .close{
+			width: 17px;
+		    height: 16px;
+		    background: url(./gallery2/close.png);
+		    background-size: 100% 100%;
+		    margin-left: 230px;
+		    margin-top: 47px;
+		    margin-bottom: 102px;
+		}
+		.nav{
+			margin-left: 66px;
+		}
+		.nav p{
+			font-size:16px;
+			color:#000;
+			font-weight: 600;
+		}
+		.nav p.linkMtop{
+			margin-top:60px;
+			margin-bottom:60px;
+		}
+		.nav p.homeMbottom{
+			margin-bottom:60px;
+		}
+		.nav p.aboutMtop{
+			margin-top:60px;
+		}
+		.nav ul{
+			list-style-type: none;
+		}
+		.nav ul li{
+			position: relative;
+			color:#666666;
+			font-size:14px;
+			margin-top:10px;
+			margin-bottom:10px;
+			cursor: pointer;
+		}
+		.nav ul li i{
+			width:7px;
+			height:14px;
+			background: url(./gallery2/rightico.png);
+		    background-size: 100% 100%;
+			position: absolute;
+			left: -15px;
+			top:0px;
+		}
+		.boutique-title{
+			width:100%;
+			height:85px;
+			text-align: center;
+			margin-top: 72px;
+		}
+		.newProduct{
+			font-size:26px;
+			color:#000;
+			font-weight:bolder;
+		}
+		.line{
+			width:40px;
+			height:4px;
+			margin:17px auto 14px auto;
+			background:#000000;
+		}
+		.boutique-title .wenzi{
+			color:#999999;
+			font-size:18px;
+		}
+		.boutique-content{
+			width:1018px;
+			height:419px;
+			margin:auto;
+			margin-top:106px;
+		}
+		.furniture {
+			width:238px;
+			height:404px;
+
+			float:left;
+			margin-left:22px;
+		}
+		.furniture-sofa{
+			margin-left:0px;
+		}
+		.commodity{
+			width:238px;
+			height:336px;
+			background:#f5f5f5;
+		}
+		.often{
+			width:238px;
+			height:96px;
+			padding-top: 135px;
+		}
+		.often img{
+			width:100%;
+			height:100%;
+		}
+		.furniture p{
+			font-size:20px;
+			text-align: center;
+			font-weight:bold;
+			color:#000000;
+		}
+		.room{
+			margin: 15px;
+		}
+		.furniture .price{
+			color:#666666;
+			font-size:22px;
+		}
+		.chair{
+			width:149px;
+			height:191px;
+			padding-top:90px;
+			padding-left:47px;
+		}
+		 .wchair{
+		 	width:149px;
+			height:191px;
+			padding-top:90px;
+			padding-left:57px;
+		}
+		.more{
+			width:145px;
+			height:36px;
+			margin:87px auto 79px;
+		}
+		.btn{
+			width:145px;
+			height:36px;
+			background:#655750;
+			font-size:18px;
+			color:#fff;
+			letter-spacing:3px;
+			font-weight: bold;
+			text-align: center;
+		}
+		.ibaotu{
+			width:100%;
+			height:342px;
+			position:relative;
+		}
+		.bookshelf{
+			width:898px;
+			height:301px;
+		}
+		.bookshelf img{
+			width:100%;
+			height:100%;
+		}
+		.desk{
+			position: absolute;
+			width:673px;
+			height:208px;
+			background-image: url(./gallery2/White.png);
+			background-size: 100% 100%;
+			right:0px;
+			top:134px;
+		}
+		.article{
+			float: left;
+			width:2px;
+			height:76px;
+			background:#cccccc;
+			margin-top:62px;
+			margin-left:71px;
+		}
+		.artwork{
+			width: 393px;
+			height:71px;
+			float: left;
+			margin-top:62px;
+			margin-left: 21px;
+		}
+		.product{
+			padding-bottom:23px;
+			font-size: 20px;
+			font-weight: bold;
+			line-height:23px;
+			text-align: auto;
+		}
+		.synopsis{
+			font-size: 12px;
+			color: #666666;
+		}
+		.news{
+			width: 100%;
+			height:457px;
+			margin-top:58px;
+		}
+		.productNews{
+			margin-top:84px;
+			width:100%;
+			height:180px;
+		}
+		.productNews ul li{
+			float:left;
+			width:236px;
+			height:180px;
+			margin-left:152px;
+		}
+		.time{
+			letter-spacing:1.5px;
+			padding-bottom:21px;
+			font-size:17.98px;
+			color:#999999;
+		}
+		.life{
+			font-weight: bold;
+			padding-bottom:34px;
+			font-size:15.88px;
+			color:#333333;
+		}
+		.under{
+			padding-bottom:28px;
+			font-size:6px;
+			color: #666666;
+		}
+		.expand{
+			width:25px;
+			height:25px;
+		}
+		.expand img{
+			width:100%;
+			height:100%;
+		}
+		.ten{
+			width: 145px;
+    		height: 36px;
+			margin:28px auto 45px;
+		}
+		.hor{
+			width:100%;
+			height:2px;
+			background-image:url("./gallery/shape_3.png");
+			background-size:100% 100%;
+		}
+		
+		.footer{
+			width:100%;
+			margin-top:92px;
+			height:330px;
+		}
+		.stand{
+			float:left;
+			width:50%;
+			height:100%;
+		}
+		.noLeft{
+			float:left;
+			margin-left:0px;
+		}
+		.row{
+			float:left;
+			margin-left:125px;
+		}
+		.stand>ul>li{
+			font-size:13px;
+			color:#999999;
+			display:block;
+			padding-bottom:17px;
+		}
+		.stand>ul>h3{
+			color:#666666;
+			font-weight:bold;
+			margin-bottom:32px;
+		}	
+		#id{
+			margin-left:0px;
+			margin-top:93px;
+		}
+		.submit{
+			float:left;
+			width:50%;
+			height:100%;
+		}
+		.mit{
+			width:321px;
+			height:39px;
+			float:right;
+			margin-top:1px;
+			border:solid 2px #655750;
+			color:#786c66;
+			font-size:15px;
+			font-weight:900;
+			letter-spacing:0.3em;
+			padding-left:16px;
+			text-align:left;
+		}
+		.sub{
+			margin-left:363px;
+			width:120px;
+			font-weight:bold;
+			font-size:16px;
+			height:38px;
+			margin-top:29px;
+			color:#ffffff;
+			text-align:center;
+			letter-spacing:0.5em;
+			background:#655750;
+			border:solid 0px;
+		}

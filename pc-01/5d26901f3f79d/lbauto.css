@@ -1,0 +1,131 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.content{
+			width:1366px;
+			height:768px;
+			position:relative;
+			margin:auto;
+		}
+		.banner{
+			position: relative;
+			float:left;
+			width:843px;
+			height:768px;
+			background-image:url(./gallery/bookshelf.jpg);
+			background-size:100% 100%;
+		}
+		.news{
+			position: relative;
+			float:left;
+			width:523px;
+			height:100%;
+		}
+		.news .options{
+			position: absolute;
+			width:27px;
+			height:20px;
+			top:49px;
+			right: 76px;
+		}
+		.desk{
+			width:268px;
+			height:406px;
+			margin:176px 169px 188px 89px;
+		}
+		.desk .big{
+			font-size:80px;
+			font-weight: bold;
+			padding-bottom:29px;
+		}
+		.desk .brand{
+			font-size:14px;
+			letter-spacing:.4px;
+			padding-bottom:21px;
+			color:#666666;
+		}
+		.desk .price{
+			font-size:14px;
+			padding-bottom:49px;
+		}
+		.desk .btn{
+			width:134px;
+			height:30px;
+			background:#2c2925;
+			line-height: 30px;
+			color:#fff;
+			padding-bottom:28px;
+		}
+		.btn img{
+			margin-left: 11px;
+			margin-bottom: 3px;
+		}
+		.desk .contact{
+			text-align: right;
+			font-size:16px;
+			font-weight: bold;
+		}
+		.sidebar{
+			position:absolute;
+			right:0px;
+			width:284px;
+			height:100%;
+			background:#fff;
+		}
+		.error{
+			width:18px;
+			height:16px;
+			margin-left:178px;
+			margin-top:48px;
+		}
+		.error img{
+			width: 100%;
+			height:100%;
+		}
+		.sidebar p{
+			padding-left:87px;
+			font-size:16px;
+			font-weight:bold;
+			letter-spacing:0.2px;
+			padding-bottom:59px;
+		}
+		.sidebar ul{
+			padding-left:87px;
+			padding-bottom:59px;
+			color:#7d7676;
+		}
+		.sidebar ul li{
+			/*position:relative;*/
+			padding-bottom:29px;
+		}
+		.heng{
+			margin-top:-15px;
+			/*bottom: 13px;*/
+			position:absolute; 
+			width:56px;
+			height:2px;
+			background:#333333;
+		}
+		.rotation{
+			position: absolute;
+			bottom:46px;
+			right:286px;
+			width:546px;
+			height:72px;
+			background:#000000;
+		}
+		.numeral{
+			width:11px;
+			height:9px;
+			float:left;
+			color:#fff;
+			margin-top:30px;
+			margin-left:83px;
+		}
+		.rotation .low {
+			float:left;
+			margin-top:26px;
+			margin-left:36px;
+		}

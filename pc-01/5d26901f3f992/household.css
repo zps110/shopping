@@ -1,0 +1,410 @@
+*{
+			margin:0px;
+			padding:0px;
+			list-style:none;
+		}
+		.news{
+			position: relative;
+			width:1366px;
+			height:674px;
+			margin:auto;
+		}
+		.content{
+			position: relative;
+			width:100%;
+			height:599px;
+			background-image:url(./gallery/cupboard.jpg);
+		}
+		.logo{
+			  width: 33px;
+			  height: 50px;
+			  background: url(./gallery/logo.png);
+			  background-size: 100% 100%;
+			  position: absolute;
+			  top: 50px;
+			  left: 95px;
+		}
+		.close{
+			position: absolute;
+			background: url(./gallery/options.png);
+			background-size: 100% 100%;
+			top:49px;
+			right:76px;
+			width:27px;
+			height:20px;
+		}
+		.home{
+			position: absolute;
+			width:815px;
+			height:195px;
+			color:#fff;
+			top: 227px;
+			margin-left:277px;
+		}
+		.hdd{
+			font-size:50px;
+			font-weight: bold;
+			letter-spacing:3.8px;
+		}
+		.heng{
+			width:80px;
+			height:5px;
+			background:#fff;
+			margin:auto;
+			margin-top:30px;
+			margin-bottom: 79px;
+		}
+		.have{
+			width:521px;
+			height:45px;
+			font-size:18px;
+			color:#fff;
+			text-align: center;
+			margin:auto;
+		}
+		.column{
+			position:absolute;
+			margin-left:183px ;
+			bottom:0px;
+			width:1000px;
+			height:162px;
+			background:#fff;
+		}
+		.column ul{
+			margin-top: 63px;
+			margin-left:83px;
+			width:833px;
+			height:40px;
+		}
+		.column ul li{
+			margin:0px auto;
+			height: 100%;
+			width:135px;
+			float: left;
+			border-left:2px solid #eeeeee;
+		}
+		.tu{
+			width:38px;
+			height:28px;
+			margin:-10px auto 19px;
+		}
+		.column p{
+			text-align: center;
+			font-size:15px;
+			color:#5f4f4b;
+		}
+		.cloth{
+			width:833px;
+			height:910px;
+			margin:auto;
+			margin-top:60px;
+		}
+		.outD{
+			width:100%;
+			height:135px;
+			text-align: center;
+		}
+		._outD{
+			font-weight: bold;
+			font-size:20px;
+			letter-spacing:.2em;
+		}
+		.div{
+			margin:21px auto 17px auto;
+			width:43px;
+			height:3px;
+			background:black;
+		}
+		.english{
+			font-size:15px;
+			color:#999999;
+		}
+		.simplicity{
+			width:833px;
+			height:368px;
+		}
+		.sketch{
+			/*position: relative;*/
+			width:342px;
+			height:368px;
+			float: left;
+		}
+		.sketch .ib{
+			padding-bottom:25px;
+			font-size:26px;
+			color:#333333;
+		}
+		.fabric{
+			padding-bottom: 30px;
+		}
+		.block{
+			width:57px;
+			height:14px;
+			margin-bottom:42px;
+		}
+		.block_{
+			width:68px;
+			height:15px;
+			position: absolute;
+			right:0px;
+		}
+		.block_ div{
+			width:15px;
+			height:15px;
+			float: left;
+			margin-right: 7px;
+		}
+		.meixue{
+			padding-top:43px;
+			font-size:14px;
+			color:#666666;
+			padding-bottom:30px;
+		}
+		.price{
+			font-size:16px;
+			color:#655750;
+			padding-bottom: 13px;
+		}
+		.spping{
+			line-height: 28px;
+			text-align: center;
+			right:0px;
+			width:85px;
+			color:#fff;
+			font-size:14px;
+			height:28px;
+			background:#655750;
+		}
+		.sBottom{
+			position: absolute;
+		}
+		.sofa{
+			float:right;
+			width:491px;
+			height:368px;
+			background-image: url(./gallery/ssofa.jpg);
+		}
+		.simplicity_{
+			width:833px;
+			height:368px;
+			margin-top: 64px;
+		}
+		.sketch_{
+			position: relative;
+		 	text-align: right;
+		 	width:342px;
+		 	height:368px;
+			float:right;
+		}
+		.sketch_ .ib{
+			padding-bottom:25px;
+			font-size:26px;
+			color:#333333;
+		}
+		.sofa_{
+			float:left;
+			width:491px;
+			height:343px;
+			background-image: url(./gallery/logsofa.jpg);
+		}
+		.article{
+			width:1002px;
+			height:770px;
+			margin:0px auto;
+		}
+		.products{
+			width:100%;
+			height:237px;
+			background:#fff;
+		}
+		.quality{
+			padding-top: 83px;
+			font-weight: bold;
+			font-size:25.1px;
+			color:#000;
+			text-align: center;
+		}
+		.h_eng{
+			margin:18px auto 18px;
+			width:41px;
+			height:4px;
+			background:#000;
+		}
+		.gray{
+			text-align: center;
+			color:#999999;
+			font-size:18px;
+			font-weight:bold;
+		}
+		.merchandise{
+			width:1002px;
+			height:530px;
+			margin:0px auto;
+		}
+		.index{
+			width:215px;
+			height:236px;
+			margin-left:25px;
+			float: left;
+			margin-bottom:62px;
+		}
+		.among{
+			width:100%;
+			height:186px;
+		}
+		.index_1{
+			margin:0px auto;
+			width:124px;
+			height:159px;
+		}
+		.sofa1{
+			padding-top:9px;
+		}
+		.white{
+			width:103px;
+			height:164px;
+		}
+		.Couch{
+			width:209px;
+			height:94px;
+			padding-top:40px; 
+		}
+		.highSofa{
+			width:136px;
+			height:153px;
+			padding-top:9px;
+		}
+		.dashafa{
+			width:137px;
+			height:144px;
+			padding-top:16px;
+		}
+		.leatherSofa{
+			width:166px;
+			height:125px;
+			padding-top:25px;
+		}
+		.thinSofa{
+			width:125px;
+			height:167px;
+		}
+		.iongsofa{
+			width:125px;
+			height:161px;
+		}
+		.index_2{
+			letter-spacing:1.9px;
+			font-size:13px;
+			color:#666666;
+			text-align: center;
+			padding-bottom:12px;
+		}
+		.index_3{
+			text-align: center;
+			font-size:16px;
+		}
+		.number{
+			width:449px;
+			height:23px;
+			margin:10px auto 103px;
+		}
+		.number .radiusLeft{
+			background-image: url(./gallery/left.png);
+			background-size:100% 100%;
+			width:22px;
+			height:22px;
+			border-radius:50% 50%;
+			float:left;
+		}
+		.number .radiusRight{
+			background-image: url(./gallery/yuanRight.png);
+			background-size:100% 100%;
+			width:22px;
+			height:22px;
+			border-radius:50% 50%;
+			float:right;
+		}
+		.number ul li{
+			font-size: 16px;
+			float:left;
+			padding-left:27px;
+		}
+		.max{
+			width:47px;
+			height:21px;
+		}
+		.footer{
+			margin:0px auto;
+			width:1000px;
+			height:235px;
+		}
+		.splitLine{
+			width:100%;
+			height:2px;
+			background:#eeeeee;
+			margin-bottom: 90px;
+		}
+		.partner{
+			width: 100%;
+			height:100%;
+		}
+		.stand{
+			float:left;
+			width:50%;
+			height:100%;
+		}
+		.noLeft{
+			float:left;
+			margin-left:0px;
+		}
+		.row{
+			float:left;
+			margin-left:125px;
+		}
+		.stand>ul>li{
+			font-size:13px;
+			color:#999999;
+			display:block;
+			padding-bottom:17px;
+		}
+		.stand>ul>h3{
+			color:#666666;
+			font-weight:bold;
+			margin-bottom:32px;
+		}	
+		#id{
+			margin-left:0px;
+			margin-top:93px;
+		}
+		.submit{
+			float:right;
+			width:321px;
+			height:100%;
+		}
+		.mit{
+			width:321px;
+			height:39px;
+			float:right;
+			margin-top:1px;
+			border:solid 2px #655750;
+			color:#786c66;
+			font-size:15px;
+			font-weight:900;
+			letter-spacing:0.3em;
+			padding-left:16px;
+			text-align:left;
+		}
+		.sub{
+			float:right;
+			margin-right:222px;
+			width:120px;
+			font-weight:bold;
+			font-size:16px;
+			height:38px;
+			margin-top:29px;
+			color:#ffffff;
+			text-align:center;
+			letter-spacing:0.5em;
+			background:#655750;
+			border:solid 0px;
+		}
