@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./commen/baoTu.css">
+	<link rel="stylesheet" type="text/css" href="./css/watch.css">
+	<style type="text/css">
+		.iuxury{
+			width:100%;
+			height:74px;
+			border-top:1px solid #e1e1e1;
+			border-bottom:1px solid #e1e1e1;
+		}
+		.xury{
+			width:270px;
+			height:21px;
+			float:left;
+			margin-left:252px;
+			margin-top:28px;
+		}
+		.xury li{
+			float:left;
+			height:21px;
+			font-size:17px;
+			text-align: center;
+			padding-left:12px;
+			padding-right:12px;
+			font-weight: bold;
+			border-right:1px solid #ccc;
+		}
+		.evaluation{
+			float:right;
+			height:21px;
+			width:220px;
+			margin-right:242px;
+			margin-top:28px;
+		}
+		.evaluation li{
+			float:left;
+			height:16px;
+			font-size:16px;
+			font-weight: bold;
+			padding-right:11px;
+			padding-left:11px;
+			border-right:1px solid #ccc;
+		}
+		.zhong{
+			width:1406px;
+			height:1884px;
+			margin:0px auto;
+		}
+		.carousel{
+			position: relative;
+			float: left;
+			width:625px;
+			height:706px;
+			overflow: hidden;
+			margin-right:73px;
+		}
+		.left{
+			height:35px;
+			top:344px;
+			display: block;
+			padding-left:21px;
+			position: absolute;
+			background-image: url(./image/left.png);
+			background-size:100% 100%;
+		}
+		.left_r{
+			height:35px;
+			right:0px;
+			display: block;
+			padding-left:21px;
+			top:344px;
+			position: absolute;
+			background-image: url(./image/xingzhuang.png);
+			background-size:100% 100%;
+		}
+		.biao{
+			width:287px;
+			height:508px;
+			margin:0px auto;
+			margin-top:127px;
+			background-image: url(./image/table.jpg);
+			background-size: 100% 100%
+		}
+		.dian{
+			width:134px;
+			height:18px;
+			margin-top:26px;
+			margin-left:230px;
+		}
+		.dian ul li{
+			float: left;
+			width:10px;
+			height:10px;
+			margin-left:21px;
+			border-radius:50% 50%; 
+			background-color: #ccc;
+		}
+		.details{
+			float:left;
+			width:705px;
+			height:1884px;
+		}
+		.wanghong{
+			height:136px;
+			width:100%;
+			margin-top:38px;
+			
+		}
+		.wang_h{
+			font-size:25px;
+			color:#e18232;
+			padding-bottom:13px; 
+		}
+		.wang_a{
+			overflow: hidden;
+			color:#b2b2b2;
+			letter-spacing: 0.15em;
+			font-size:16px;
+			line-height: 20px;
+		}
+		.zhuang{
+			font-size:12px;
+			color:#e18232;
+			padding-top:25px;
+		}
+		.jia{
+			color:#e18232;
+			height:59px;
+			width:100%;
+			font-family:"Myriad Pro";
+			line-height: 59px;
+			border-bottom:1px solid #ccc;
+		}
+		.shaihaishi{
+			overflow:hidden;
+			width:100%;
+			height:121px;
+			margin-top:46px;
+			background: #fafafa;
+			border:1px #e0e0e0 solid;
+		}
+		.diwei{
+			float:left;
+			display: block;
+			margin-top: 39px;
+			margin-left:42px;
+			margin-right:29px;
+		}
+		.huopu{
+			float:left;
+			font-size:16px;
+			margin-top:39px;
+			line-height:22px;
+		}
+		.dial{
+			width:705px;
+			height:90px;
+			margin-top:47px;
+		}
+		.dial_color{
+			width:705px;
+			height:206px;
+			margin-top:36px;
+		}
+		.setMeal{
+
+			width:705px;
+			height:217px;
+			margin-top:36px;
+		}
+		.al{
+			margin-bottom:15px;
+			color:#ed7635 ;
+		}
+		.import{
+			width:345px;
+			height:51px;
+			margin-bottom:7px;
+			border:#ccc solid 1px;
+			float:left;
+			line-height: 51px;
+			color:#050505;
+			font-weight: bold;
+			text-align: center;
+			font-size:17px;
+			margin-left:5px;
+		}
+		.border{
+			border:1px solid #ed7635;
+			color:#ed7635;
+		}
+		.buy{
+			width:705px;
+			height:718px;
+		}
+		.buy_liao{
+			width:100%;
+			height:38px;
+			margin-top:43px;
+		}
+		.yiwai{
+			width:697px;
+			height:163px;
+			border:#ccc solid 1px;
+		}
+		.liaojie{
+			float:left;
+			padding-bottom: 15px;
+		}
+		.use{
+			width:93px;
+			height:31px;
+			background:#ed7331;
+			font-size:15px;
+			float: right;
+			color:#fff;
+			margin-top:12px;
+			line-height: 31px;
+			text-align: center;
+		}
+		.liao{
+			color:#ed712d;
+			float:right;
+		}
+		.xuanxiang{
+			float:left;
+			width:17px;
+			height:17px;
+			margin:62px 33px 0px 48px;
+			border-radius:50% 50%;
+			border:1px #a3a3a3 solid;
+		}
+		.duipai{
+			float:left;
+			width:37px;
+			height:41px;
+			margin-top:45px;
+			background-image: url(./image/baozhang.png);
+			background-size: 100% 100%;
+		}
+		.div{
+			float:left;
+			width:530px;
+			height:82px;
+			margin-left: 28px;
+			margin-top:41px;
+			font-size:15px;
+			line-height:23px;
+		}
+		.div input{
+			width:17px;
+			height:17px;
+			text-align: bottom;
+		}
+		.yi{
+			font-size:21px;
+			font-weight: bold;
+			color:#4c3a3a;
+			text-align: left;
+			margin-bottom:13px; 
+		}
+		.wai{
+			text-align: left;
+			font-size: 16px;
+			color:#ccc;
+			margin-bottom:13px; 
+		}
+		.checkbox{
+			float: left;
+			color:#4b3a3a;
+		}
+		.variety{
+			text-align: sub;
+			color:#6083ff;
+		}
+		.var_this{
+			color:#ccc;
+			font-size:14px;
+			margin-right:18px; 
+			margin-bottom:39px;
+			float:right;
+		}
+		.gao{
+			margin-top:16px;
+		}
+		.gao p{
+			margin-top: 11px;
+		}
+		.zongjia{
+			width:697px;
+			height:166px;
+			overflow: hidden;
+			margin-top:16px;
+			background:#f9f9fa;
+		}
+		.danni{
+			font-size: 17px;
+			color:#777777;
+			margin-top:43px;
+			margin-left:43px;
+			margin-bottom:38px;
+		}
+		.danjia{
+			margin-top:-54px;
+			float:right;
+			color: #777777;
+		}
+		.zongjiage{
+			color:#ed712d;
+			font-size:27px;
+			padding-left:43px;
+			padding-bottom:39px;
+		}
+		.liji{
+			width:347px;
+			float:left;
+			height:62px;
+			background:#ed712d;
+			margin-top:33px;
+			line-height: 62px;
+			font-size:14px;
+			font-family:bold;
+			color:#fff;
+			text-align: center;
+			letter-spacing:0.1em;
+		}
+		.liji_go{
+			margin-left:14px;
+			margin-top:33px;
+			width:163px;
+			height:62px;
+			float:left;
+			color:#fff;
+			line-height: 62px;
+			text-align: center;
+			letter-spacing:0.1em;
+			font-size:14px;
+			font-family:bold;
+			background:#ccc;
+		}
+		.freeShipping{
+			width:100%;
+			height:421px;
+			overflow: hidden;
+			background-color: #f6f6f6;
+		}
+		.noReason{
+			width:1318px;
+			height:237px;
+			margin:130px auto;
+		}
+		.return{
+			float:left;
+			width:186px;
+			height:238px;
+			margin-left:40px;
+		}
+		.message{
+			width:69px;
+			height:74px;
+			margin-top: 7px;
+			margin-left:25px;
+			background-image: url(./image/fenzu5.png);
+			background-size:100% 100%;
+		}
+		.xitong{
+			margin-top:26px;
+			margin-left:38px;
+			margin-bottom: 92px;
+			font-size:16px;
+			color:#a0a0a0;
+		}
+		.chec{
+			width:179px;
+			height:26px;
+		}
+		.fuxuan{
+			float:left;
+			width:20px;
+			margin-right:4px;
+			overflow: hidden;
+			height:20px;
+			position: relative;
+			border:3px #4b3a3a solid;
+		}
+		.chec input{
+			position:absolute;
+			clip: rect(1px 19px 19px 2px);
+			margin:0px;
+			width:21px;
+			height:20px;
+		}
+		.yuyue{
+			font-size:20px;
+			color:#4b3a3a;
+			font-weight: bold;
+			line-height:22px;
+			float:left;
+		}
+		.noleft{
+			margin:0px;
+		}
+		.footer{
+			width:100%;
+			height:435px;
+			color:#fff;
+			bottom:0px;
+			background:#2e2c2f;
+		}
+		.copyright{
+			width:1416px;
+			height: 100%;
+			margin:0px auto;
+		}
+		.icon{
+			float:left;
+			width:265px;
+			height:265px;
+			margin:55px 120px 0px 109px;
+		}
+		.end{
+			width:215px;
+			height:62px;
+			margin:0px auto;
+		}
+		.white{
+			width:165px;
+			height:165px;
+			margin:38px auto 0px;
+			background:white;
+		}
+		.address{
+			float:left;
+			width:462px;
+			height:323px;
+			margin-top:72px;
+		}
+		.network{
+			font-size:20px;
+			font-family:"幼圆";
+			padding-bottom:55px;
+		}
+		.postcode{
+			width:369px;
+			height:130px;
+		}
+		.postcode p{
+			font-size:16px;
+			padding-top:22px;
+		}
+		.beiJing{
+			float:left;
+			font-family:"幼圆";
+			
+			padding:79px 0px 0px 0px;
+			font-size:16px;
+		}
+		.right{
+			float:right;
+			font-family:"幼圆";
+			padding:79px 0px 0px 80px;
+			font-size:16px;
+		}
+		.btn{
+			margin:63px 0px 0px 36px;
+			float:left;
+			width:372px;
+			height:330px;
+		}
+		.btn span{
+			font-size:13px;
+			padding-top:28px;
+		}
+		.btn input{
+			width:316px;
+			height:26;
+			color:#fff;
+			outline: none;
+			background:#2e2c2f;
+			margin-bottom: 14px;
+			border:3px solid #fff;
+		}
+		.textarea{
+			float:right;
+			margin-right:8px;
+			width:316px;
+			height:117px;
+			overflow: hidden;
+			border:3px solid #fff;
+		}
+		.submit{
+			width:90px;
+			height:30px;
+			line-height: 30px;
+			font-size:16px;
+			float:right;
+			margin-top:15px;
+			margin-right:116px;
+			border-radius: 50px 50px 50px 50px;
+			text-align: center;
+			color:#2e2c2f;
+			background:#fff;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="haer">
+					<div class="quotientr">
+					<p class="shangHai">上海包图电商科技信息有限公司</p>
+					<div class="registered">
+						<span class="login">登录</span>
+						<span class="login">注册</span>
+						<div class="shoppingCart"><i class="car"><img src="./image/gouwuche.png"></i><p>&nbsp;购物车(1)</p></div>
+					</div>
+					</div>
+			</div>
+			<div class="nav">
+				<div class="logo">
+					<img src="./image/LOGO2.png">
+				</div>
+				<ul>
+					<li>首页</li>
+					<li >公司简介</li>
+					<li>联系我们</li>
+					<li>售后服务</li>
+					<li class="color">常见问题</li>
+					<li>购物车</li>
+				</ul>
+				<div class="input">
+					<input class="inp"type="text" name="">
+					<div class="magnifier"><i class="magn">
+						<img src="./image/fangdajing.png">
+					</i></div>
+				</div>
+			</div>
+			<div class="iuxury">
+				<ul class="xury">
+					<li>奢侈品</li>
+					<li>手表</li>
+					<li>丹尼尔</li>
+				</ul>
+				<ul class="evaluation">
+					<li>概述</li>
+					<li>参数</li>
+					<li>详情</li>
+					<li style="border-right:0px;">评价</li>
+				</ul>
+			</div>
+			<div class="zhong">
+				<div class="carousel">
+					<i class="left"></i>
+					<i class="left_r"></i>
+					<div class="biao"></div>
+					<div class="dian">
+					<ul>
+						<li></li>
+						<li style="width:8px; height:8px;border: 2px #999999 solid ;background-color:#fff;"></li>
+						<li></li>
+						<li></li>
+					</ul>
+					</div>
+				</div>
+				<div class="details">
+					<div class="wanghong">
+						<p class="wang_h">丹尼尔网红手表</p>
+						<p class="wang_a">商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍商品信息基本介绍</p>
+					</div>
+					<div class="jiage">
+						<p class="zhuang">奢侈品专卖</p>
+						<div class="jia">98999yuan</div>
+						<div class="jia">您还有6张优惠卷可以使用
+							<div class="use">
+								购买使用
+							</div>
+						</div>
+						
+					</div>
+					<div class="shaihaishi">
+						<i class="diwei"><img src="./image/dingwei.png"></i>
+						<p class="huopu">上海&nbsp;&nbsp;上海市&nbsp;&nbsp;黄浦区&nbsp;&nbsp;公园街道&nbsp;&nbsp;修改<br>货物充足</p>
+						
+					</div>
+					<div class="dial">
+						<p class="al">选择表盘</p>
+						<ul>
+						<li class="import border">进口32毫米表盘</li>
+						<li class="import">进口32毫米表盘</li>
+						</ul>
+					</div>
+					<div class="dial_color">
+						<p class="al">选择颜色</p>
+						<ul>
+						<li class="import border">黑色牛皮带</li>
+						<li class="import">土豪金</li>
+						<li class="import">玫瑰红</li>
+						<li class="import">青春蓝</li>
+						<li class="import">深空灰</li>
+						<li class="import">白色</li>
+						</ul>
+					</div>
+					<div class="setMeal">
+						<p class="al">选择表盘</p>
+						<ul>
+						<li class="import border">标配</li>
+						<li class="import">套餐1</li>
+						<li class="import">套餐2</li>
+						<li class="import">套餐3</li>
+						<li class="import">套餐4</li>
+						</ul>
+					</div>
+					<div class="buy">
+						<div class="buy_liao">
+						<p class="liaojie">选择保修险</p>
+						<p class="liao">了解保修险></p>
+						</div>
+						<div class="yiwai">
+							<div class="xuanxiang"></div>
+							<div class="duipai"></div>
+							<div class="div">
+								<p class="yi">意外保障服务</p>
+								<p class="wai">保修范围说明保险范围说明</p>
+								<p class="checkbox"><input type="Checkbox" name="">&nbsp;我已阅读<span class="variety">服务条款&nbsp;&nbsp;常见问题</span><p class="var_this">199元</p></p>
+							</div>
+						</div>
+						<div class="yiwai">
+							<div class="xuanxiang"></div>
+							<div class="duipai"></div>
+							<div class="div">
+								<p class="yi">意外保障服务</p>
+								<p class="wai">保修范围说明保险范围说明</p>
+								<p class="checkbox"><input type="Checkbox" name="">&nbsp;我已阅读<span class="variety">服务条款&nbsp;&nbsp;常见问题</span><p class="var_this">199元</p></p>
+							</div>
+						</div>
+						<div class="zongjia">
+							<p class="danni">丹尼尔网红手表＋3年意外险保护</p>
+							<div class="danjia">2999元</div>
+							<p class="zongjiage">总计：&nbsp;&nbsp;2999元</p>
+						</div>
+						<div class="liji">立即购买</div>
+						<div class="liji_go">加入购物车</div>
+					</div>
+				</div>
+			</div>
+			<div class="freeShipping">
+					<div class="noReason">
+						<div class="return noleft">
+							<div class="message">
+							</div>
+							<p class="xitong">客服系</p>
+							<div class="chec">
+								<div class="fuxuan">
+								<input type="checkbox"name="" style="">
+								</div><span class="yuyue">预约维修服务</span>
+							</div>
+						</div>
+						<div class="return">
+							<div class="message" style="background-image: url(./image/fenzu6.png);">
+							</div>
+							<p class="xitong">客服系</p>
+							<div class="chec">
+								<div class="fuxuan">
+								<input type="checkbox"name="" style="">
+								</div><span class="yuyue">预约维修服务</span>
+							</div>
+						</div>
+						<div class="return">
+							<div class="message" style="background-image: url(./image/fenzu7.png);">
+							</div>
+							<p class="xitong">客服系</p>
+							<div class="chec">
+								<div class="fuxuan">
+								<input type="checkbox"name="" style="">
+								</div><span class="yuyue">预约维修服务</span>
+							</div>
+						</div>
+						<div class="return">
+							<div class="message" style="background-image: url(./image/fenzu6.png);">
+							</div>
+							<p class="xitong">客服系</p>
+							<div class="chec">
+								<div class="fuxuan">
+								<input type="checkbox"name="" style="">
+								</div><span class="yuyue">预约维修服务</span>
+							</div>
+						</div>
+						<div class="return">
+							<div class="message" style="background-image: url(./image/fenzu7.png);">
+							</div>
+							<p class="xitong">客服系</p>
+							<div class="chec">
+							<div class="fuxuan">
+								<input type="checkbox"name="" style="">
+								</div><span class="yuyue">预约维修服务</span>
+							</div>
+						</div>
+						<div class="return">
+							<div class="message" style="background-image: url(./image/fenzu8.png);">
+							</div>
+							<p class="xitong">客服系</p>
+							<div class="chec">
+								<div class="fuxuan">
+								<input type="checkbox"name="" style="">
+								</div><span class="yuyue">预约维修服务</span>
+							</div>
+						</div>
+					</div>
+			</div>
+			<div class="footer">
+				<div class="copyright">
+				<div class="icon">
+					<div class="end">
+						<img src="./image/LOGO-Copy.png">
+					</div>
+					<div class="white"></div>
+				</div>
+				<div class="address">
+					<p class="network">包图网络科技</p>
+					<div class="postcode">
+						<p>邮编&nbsp;000000</p>
+						<p>电话&nbsp;0511-9999999</p>
+						<p>邮箱&nbsp;baotuwang@hr.com</p>
+						<p>地址&nbsp;北京市海淀区之兰路989号（包图大厦）</p>
+					</div>
+					<p class="beiJing">京ICP备000000000号-0</p><p  class="right">京公安网备案0000000000号</p>
+				</div>
+				<div class="btn">
+					<span>姓名：</span><input type="" name="">
+					<span>电话：</span><input type="" name="">
+					<span>留言：</span><div class="textarea"><textarea rows="9" cols="50" style="color:#fff; border:none;background:#2e2c2f; outline: none;"></textarea></div>
+					<div class="submit">提交</div>
+				</div>
+				</div>
+			</div>
+	</div>
+</body>
+</html>

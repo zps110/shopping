@@ -1,0 +1,215 @@
+.quotientr{
+			width:1416px;
+			height:46px;
+			color:#fff;
+			margin:0px auto;
+		}
+		.shangHai{
+			float:left;
+			color:#a0a1a4;
+			padding-top:18px;
+			font-size:16px;
+			font-family:"黑体";
+		}
+		.registered{
+			float:right;
+			width:250px;
+			height:100%;
+		}
+		.login{
+			font-family:"黑体";
+			float: left;
+			color:#a0a1a4;
+			font-size:17px;
+			padding-top:18px;
+			padding-right:22px;
+		}
+		.car{
+			float:left;
+			display:block;
+			height:18px;
+			padding-left:18px;
+			margin-top: 15px;
+		}
+		.shoppingCart{
+			font-family:"黑体";
+			float: right;
+			width:138px;
+			height:46px;
+			color:#fff;
+			background:#ed712d;
+			float:right;
+			/*padding-left: 5px;*/
+			font-size: 17px;
+		}
+		.shoppingCart p{
+			font-size:15px;
+			padding-top:17px;
+		}
+		.logo{
+			float:left;
+			width:146px;
+			height:41px;
+			margin-top:38px;
+		}
+		.logo img{
+			font-size:100% 100%;
+		}
+		.nav {
+			width:1416px;
+			height:117px;
+			margin:0px auto;
+		}
+		.nav ul{
+			float:left;
+			width:750px;
+			height:41px;
+			margin-top:38px;
+			margin-left:125px;
+		}
+		.nav ul li{
+			font-weight: bold;
+			font-family:"黑体";
+				font-size:16px;
+				float:left;
+				padding-top: 23px;
+				padding-right: 65px;
+		}
+		.input{
+			float:right;
+			width:340px;
+			height:56px;
+			margin-top:38px;
+			border:1px solid #ccc;
+		}
+		.inp{
+			float:left;
+			width:281px;
+			height:54px;
+			border:0px;
+		}
+		.magn img{	
+			margin:18px 0px 0px 19px;
+		}
+		.magnifier{
+			float:left;
+			width:54px;
+			height:100%;
+			border-left:1px solid #ccc;
+		}
+		.msg p{
+			color:#6d6d6d;
+			font-weight: bold;
+			font-family:"黑体";
+			font-size:13px;
+			width:242px;
+			height:15px;
+			margin-left:247px;
+			padding-top: 39px;
+			margin-bottom:15px;
+		}
+
+
+
+
+		.footer{
+			width:100%;
+			height:435px;
+			color:#fff;
+			bottom:0px;
+			background:#2e2c2f;
+		}
+		.copyright{
+			width:1416px;
+			height: 100%;
+			margin:0px auto;
+		}
+		.icon{
+			float:left;
+			width:265px;
+			height:265px;
+			margin:55px 120px 0px 109px;
+		}
+		.end{
+			width:215px;
+			height:62px;
+			margin:0px auto;
+		}
+		.white{
+			width:165px;
+			height:165px;
+			margin:38px auto 0px;
+			background:white;
+		}
+		.address{
+			float:left;
+			width:462px;
+			height:323px;
+			margin-top:72px;
+		}
+		.network{
+			font-size:20px;
+			font-family:"幼圆";
+			padding-bottom:55px;
+		}
+		.postcode{
+			width:369px;
+			height:130px;
+		}
+		.postcode p{
+			font-size:16px;
+			padding-top:22px;
+		}
+		.beiJing{
+			float:left;
+			font-family:"幼圆";
+			
+			padding:79px 0px 0px 0px;
+			font-size:16px;
+		}
+		.right{
+			float:right;
+			font-family:"幼圆";
+			padding:79px 0px 0px 80px;
+			font-size:16px;
+		}
+		.btn{
+			margin:63px 0px 0px 36px;
+			float:left;
+			width:372px;
+			height:330px;
+		}
+		.btn span{
+			font-size:13px;
+			padding-top:28px;
+		}
+		.btn input{
+			width:316px;
+			height:26;
+			color:#fff;
+			outline: none;
+			background:#2e2c2f;
+			margin-bottom: 14px;
+			border:3px solid #fff;
+		}
+		.textarea{
+			float:right;
+			margin-right:8px;
+			width:316px;
+			height:117px;
+			overflow: hidden;
+			border:3px solid #fff;
+		}
+		.submit{
+			width:90px;
+			height:30px;
+			line-height: 30px;
+			font-size:16px;
+			float:right;
+			margin-top:15px;
+			margin-right:116px;
+			border-radius: 50px 50px 50px 50px;
+			text-align: center;
+			color:#2e2c2f;
+			background:#fff;
+		}

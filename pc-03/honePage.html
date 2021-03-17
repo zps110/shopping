@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./commen/baoTu.css">
+	<link rel="stylesheet" type="text/css" href="./css/honeGage.css">
+	<style type="text/css">
+		.main{
+			width:100%;
+			height:2380px;
+			background:#f5f5f5;
+			
+		}
+		.msg{
+			width:100%;
+			height:69px;
+			background: #f5f5f5;
+			margin-top: 29px;
+		}
+		.navs{
+			width:1418px;
+			height:531px;
+			margin:0px auto;
+		}
+		.column{
+			overflow: hidden;
+			width:1417px;
+			height:197px;
+			margin:0px auto;
+			margin-top:16px;
+			
+		}
+		.content{
+			overflow: hidden;
+			width:1418px;
+			height:754px;
+			margin:56px auto 0px;
+		}
+		.title{
+			overflow: hidden;
+			width:1418px;
+			height:175px;
+			margin:40px auto 0px;
+		}
+		.contner{
+			width:1418px;
+			height:489px;
+			margin:40px auto 0px;
+			overflow: hidden;
+		}
+		.sidebar{
+			float: left;
+			width:270px;
+			height:100%;
+			background:#55585f;
+		}
+		.banner{
+			position: relative;
+			float: left;
+			background-image:url(./image/5d56292b7f365_03.jpg);
+			
+			height:100%;
+			width:1146px;
+		}
+		.list_ul{
+			width:236px;
+			height:100%;
+			margin-left:34px;
+		}
+		.list_ul li{
+			font-size: 20px;
+			color:#dfe0e1;
+			font-size:15.8px;
+			height: 16px;
+			font-family: "Adobe 黑体 Std";
+			line-height: 16px;
+			padding-top: 34px;
+		}
+		.unfold{
+			width:9px;
+			height:15px;
+			float:right;
+			margin-right:28px;
+		}
+		.sequence{
+			width:120px;
+			height:13px;
+		}
+		.copy{
+			width:120px;
+			height:13px;
+			bottom: 28px;
+			right:41px;
+			position: absolute;
+		}
+		.copy li{
+			float: left;
+			padding-left:12px;
+		}
+		.summary{
+			float:left;
+			width:459px;
+			height:197px;
+			margin-left:20px;
+			background-image: url(./image/3.png);
+			background-size:100% 100%;
+		}
+		.left{
+			margin-left:0px;
+		}
+		.dialogue{
+			float: left;
+			color:#fff;
+			width:81px;
+			height:86px;
+			margin:56px 0px 0px 83px;
+		}
+		.afterSale{
+			float:left;
+			width:159px;
+			height:54px;
+			margin-top:77px;
+			margin-left:41px;
+		}
+		.afterSale_h{
+			font-size:20px;
+			font-family:;
+			padding-bottom: 13px;
+		}
+		.commodity{
+			width:100%;
+			height:43px;
+		}
+		.recommend{
+			float:left;
+			font-size:23px;
+			font-family: ;
+		}
+		.subnav{
+			float:right;
+			width:340px;
+			height:100%;
+		}
+		.subnav ul{
+			width:340px;
+			height:100%;
+		}
+		.subnav ul li{
+			color:#464646;
+			float:left;
+			font-family: "幼圆";
+			padding-left:33px;
+			font-size:20px;
+		}
+		.article{
+			width:159px;
+			height:54px;
+			background:blue;
+		}
+		.device{
+		 	margin:0px auto;
+			width:1418px;
+			height:751px;
+			background: #f5f5f5;
+		}
+		.shopping{
+			float:left;
+			width:271px;
+			height:348px;
+			background: #fff;
+			position: relative;
+			text-align: center;
+			margin-bottom:17px;
+			margin-right:15px;
+		}
+		.new{
+			top:0px;
+			right:-3px;
+			width:56px;
+			height:60px;
+			position: absolute;
+		}
+		.new img{
+			width:100%;
+			height:100%;
+		}
+		.blank{
+			margin-right:0px;
+			margin-left:0px;
+		}
+		.movement img{
+			width:100%;
+		}
+		.image{
+			width:271px;
+			height:238px;
+		}
+		.biao{
+			width:89px;
+			height:155px;
+			margin: 0px auto; 
+			padding-top:65px;
+		}
+		.biao img{
+			width:100%;
+			height:100%;
+		}
+		.productName{
+			font-weight: bold;
+			font-size:19px;
+			color:#373737;
+			margin-bottom:10px;
+		}
+		.price{
+			font-size:19px;
+			color:#ed7431;
+			margin-bottom:20px;
+		}
+		.comment{
+			font-size:19px;
+			color:#b1b1b1;
+			margin-bottom:35px;
+		}
+		.status{
+			overflow: hidden;
+			float:left;
+			background: #fff;
+			width:342px;
+			height:175px;
+			overflow: hidden;
+			margin-right: 16px; 
+		}
+		.money{
+			border-radius:100px 100px;
+			float: left;
+			color:#fff;
+			width:93px;
+			height:92px;
+			margin:47px 0px 0px 29px;
+		}
+		.money img{
+			width:100%;
+			height:100%;
+		}
+		.computer{
+			float:left;
+			width:159px;
+			height:54px;
+			margin-left:28px;
+		}
+		.sale{
+			font-size: 16px;
+			margin-top:74px;
+			margin-bottom:6px;
+		}
+		.eng{
+			width:180px;
+			font-size:12px;
+			color:#ccc;
+		}
+		.sellWell{
+			overflow: hidden;
+			float:left;
+			background:#fff;
+			border-top:#f3b44b solid 7px;
+			width:344px;
+			height: 480px;
+			margin-right:14px;
+		}
+		.like{ 
+			width:100%;
+			height:200px;
+			overflow: hidden;
+		}
+		.pin{
+			font-size:19px;
+			color:#f3b44b;
+			margin-top:44px;
+			margin-bottom:31px;
+			text-align: center;
+		}
+		.heading{
+			font-size:20px;
+			margin-bottom:13px;
+			text-align: center;
+		}
+		.generalize{
+			font-size:14px;
+			color:#b4b4b4;
+			margin-bottom:42px;
+			text-align: center;
+		}
+		.amount{
+			font-size:18px;
+			height:19px;
+			text-align: center;
+		}
+		.clothes{
+			position: relative;
+			width:100%;
+			height:269px;
+		}
+		.clothes_img{
+			width:277px;
+			height:151px;
+			float:left;
+			margin-left:29px;
+			margin-top:39px;
+		}
+		.clothes_img img{
+			width:100%;
+			height:100%;
+		}
+		.buy{
+			width:125px;
+			height:11px;
+			position: absolute;
+			margin:0px auto;
+			bottom:0px;
+			left:100px;
+			margin-bottom:30px;
+		}
+		.buy li{
+			float:left;
+			padding-left:30px;
+
+		}
+		.cancel{
+			margin-right:0px;
+		}
+		.footer{
+			width:100%;
+			height:435px;
+			color:#fff;
+			bottom:0px;
+			background:#2e2c2f;
+		}
+		.copyright{
+			width:1416px;
+			height: 100%;
+			margin:0px auto;
+		}
+		.icon{
+			float:left;
+			width:265px;
+			height:265px;
+			margin:55px 120px 0px 109px;
+		}
+		.end{
+			width:215px;
+			height:62px;
+			margin:0px auto;
+		}
+		.white{
+			width:165px;
+			height:165px;
+			margin:38px auto 0px;
+			background:white;
+		}
+		.address{
+			float:left;
+			width:462px;
+			height:323px;
+			margin-top:72px;
+		}
+		.network{
+			font-size:20px;
+			font-family:"幼圆";
+			padding-bottom:55px;
+		}
+		.postcode{
+			width:369px;
+			height:130px;
+		}
+		.postcode p{
+			font-size:16px;
+			padding-top:22px;
+		}
+		.beiJing{
+			float:left;
+			font-family:"幼圆";
+			
+			padding:79px 0px 0px 0px;
+			font-size:16px;
+		}
+		.right{
+			float:right;
+			font-family:"幼圆";
+			padding:79px 0px 0px 80px;
+			font-size:16px;
+		}
+		.btn{
+			margin:63px 0px 0px 36px;
+			float:left;
+			width:372px;
+			height:330px;
+		}
+		.btn span{
+			font-size:13px;
+			padding-top:28px;
+		}
+		.btn input{
+			width:316px;
+			height:26;
+			color:#fff;
+			outline: none;
+			background:#2e2c2f;
+			margin-bottom: 14px;
+			border:3px solid #fff;
+		}
+		.textarea{
+			float:right;
+			margin-right:8px;
+			width:316px;
+			height:117px;
+			overflow: hidden;
+			border:3px solid #fff;
+		}
+		.submit{
+			width:90px;
+			height:30px;
+			line-height: 30px;
+			font-size:16px;
+			float:right;
+			margin-top:15px;
+			margin-right:116px;
+			border-radius: 50px 50px 50px 50px;
+			text-align: center;
+			color:#2e2c2f;
+			background:#fff;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+			<div class="haer">
+					<div class="quotientr">
+					<p class="shangHai">上海包图电商科技信息有限公司</p>
+					<div class="registered">
+						<span class="login">登录</span>
+						<span class="login">注册</span>
+						<div class="shoppingCart"><i class="car"><img src="./image/gouwuche.png"></i><p>&nbsp;购物车(1)</p></div>
+					</div>
+					</div>
+			</div>
+			<div class="nav">
+				<div class="logo">
+					<img src="./image/LOGO2.png">
+				</div>
+				<ul>
+					<li>首页</li>
+					<li >公司简介</li>
+					<li>联系我们</li>
+					<li>售后服务</li>
+					<li class="color">常见问题</li>
+					<li>购物车</li>
+				</ul>
+				<div class="input">
+					<input class="inp"type="text" name="">
+					<div class="magnifier"><i class="magn">
+						<img src="./image/fangdajing.png">
+					</i></div>
+				</div>
+			</div>
+		<div class="main">
+			<div class="navs">
+				<div class="sidebar">
+					<ul class="list_ul">
+						<li>内衣配件<i class="unfold"><img src="./image/xingzhuang.png"></i></li>
+						<li>内衣配件<i class="unfold"><img src="./image/xingzhuang.png"></i></li>
+						<li>内衣配件<i class="unfold"><img src="./image/xingzhuang.png"></i></li>
+						<li>内衣配件<i class="unfold"><img src="./image/xingzhuang.png"></i></li>
+						<li>内衣配件<i class="unfold"><img src="./image/xingzhuang.png"></i></li>
+						<li>内衣配件<i class="unfold"><img src="./image/xingzhuang.png"></i></li>
+						<li>内衣配件<i class="unfold"><img src="./image/xingzhuang.png"></i></li>
+						<li>内衣配件<i class="unfold"><img src="./image/xingzhuang.png"></i></li>
+						<li>内衣配件<i class="unfold"><img src="./image/xingzhuang.png"></i></li>
+						<li>内衣配件<i class="unfold"><img src="./image/xingzhuang.png"></i></li>
+					</ul>
+				</div>
+				<div class="banner">
+					<!-- <img src="./image/5d56292b7f365_03.jpg"> -->
+						<ul class="copy">
+							<li><img src="./image/copy-3.png"></li>
+							<li><img src="./image/copy-4.png"></li>
+							<li><img src="./image/copy-4.png"></li>
+							<li><img src="./image/copy-4.png"></li>
+							<li><img src="./image/copy-4.png"></li>
+						</ul>
+				</div>
+			</div>
+			<div class="column">
+				<div class="summary left">
+					<div class="dialogue"><img src="./image/fenzu5.png"></div>
+					<div class="afterSale">
+						<p class="afterSale_h">售后服务</p>
+						<p class="afterSale_t">售后服务售后服务</p>
+					</div>
+				</div>
+				<div class="summary ">
+					<div class="dialogue"><img src="./image/fenzu5.png"></div>
+					<div class="afterSale">
+						<p class="afterSale_h">售后服务</p>
+						<p class="afterSale_t">售后服务售后服务</p>
+					</div>
+				</div>
+				<div class="summary ">
+					<div class="dialogue"><img src="./image/fenzu5.png"></div>
+					<div class="afterSale">
+						<p class="afterSale_h">售后服务</p>
+						<p class="afterSale_t">售后服务售后服务</p>
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="commodity">
+					<p class="recommend">推荐</p>
+					<div class="subnav">
+						<ul>
+							<li style="color:#ed7839";>热门</li>
+							<li>热门</li>
+							<li>热门</li>
+							<li>热门</li>
+						</ul>
+					</div>
+				</div>
+			<div class="device">
+				<div class="shopping movement">
+					<img src="./image/5d56292b17f365_03.jpg">
+				</div>
+				<div class="shopping">
+					<div class="image"><div class="biao"><img src="./image/table.jpg"></div></div>
+					<p class="productName">这里该商品的名称</p>
+					<p class="price">296元</p>
+					<p class="comment">9830人评论</p>
+				</div>
+				<div class="shopping">
+					<div class="image"><div class="new">
+						<img src="./image/NEW.png">
+					</div><div class="biao"><img src="./image/table.jpg"></div></div>
+					<p class="productName">这里该商品的名称</p>
+					<p class="price">296元</p>
+					<p class="comment">9830人评论</p>
+				</div>
+				<div class="shopping">
+					<div class="image"><div class="new">
+						<img src="./image/NEW.png">
+					</div><div class="biao"><img src="./image/table.jpg"></div></div>
+					<p class="productName">这里该商品的名称</p>
+					<p class="price">296元</p>
+					<p class="comment">9830人评论</p>
+				</div>
+				<div class="shopping blank">
+					<div class="image"><div class="biao"><img src="./image/table.jpg"></div></div>
+					<p class="productName">这里该商品的名称</p>
+					<p class="price">296元</p>
+					<p class="comment">9830人评论</p>
+				</div>
+				<div class="shopping">
+					<img src="./image/5d562922b7f365_03.jpg">
+				</div>
+				<div class="shopping">
+					<div class="image"><div class="new">
+						<img src="./image/NEW.png">
+					</div><div class="biao"><img src="./image/table.jpg"></div></div>
+					<p class="productName">这里该商品的名称</p>
+					<p class="price">296元</p>
+					<p class="comment">9830人评论</p>
+				</div>
+				<div class="shopping">
+					<div class="image"><div class="new">
+						<img src="./image/NEW.png">
+					</div><div class="biao"><img src="./image/table.jpg"></div></div>
+					<p class="productName">这里该商品的名称</p>
+					<p class="price">296元</p>
+					<p class="comment">9830人评论</p>
+				</div>
+				<div class="shopping">
+					<div class="image"><div class="new">
+						<img src="./image/NEW.png">
+					</div><div class="biao"><img src="./image/table.jpg"></div></div>
+					<p class="productName">这里该商品的名称</p>
+					<p class="price">296元</p>
+					<p class="comment">9830人评论</p>
+				</div>
+				<div class="shopping blank">
+					<div class="image"><div class="new">
+						<img src="./image/NEW.png">
+					</div><div class="biao"><img src="./image/table.jpg"></div></div>
+					<p class="productName">这里该商品的名称</p>
+					<p class="price">296元</p>
+					<p class="comment">9830人评论</p>
+				</div>
+			</div>
+			</div>
+			<div class="title">
+				<div class="status">
+					<div class="money"><img src="./image/jingrong1.png"></div>
+					<div class="computer">
+						<p class="sale">价格透明</p>
+						<p class="eng">全国五星级酒店连锁，价格合理</p>
+					</div>
+				</div>
+				<div class="status">
+					<div class="money"><img src="./image/jingrong1.png"></div>
+					<div class="computer">
+						<p class="sale">价格透明</p>
+						<p class="eng">全国五星级酒店连锁，价格合理</p>
+					</div>
+				</div>
+				<div class="status">
+					<div class="money"><img src="./image/jingrong1.png"></div>
+					<div class="computer">
+						<p class="sale">价格透明</p>
+						<p class="eng">全国五星级酒店连锁，价格合理</p>
+					</div>
+				</div>
+				<div class="status cancel">
+					<div class="money"><img src="./image/jingrong1.png"></div>
+					<div class="computer">
+						<p class="sale">价格透明</p>
+						<p class="eng">全国五星级酒店连锁，价格合理</p>
+					</div>
+				</div>
+			</div>
+			<div class="contner">
+				<div class="sellWell">
+					<div class="like">
+						<p class="pin">热销</p>
+						<p class="heading">这里是大标题</p>
+						<p class="generalize">这里是一句概要小标题介绍</p>
+						<p class="amount">8.88元</p>
+					</div>
+					<div class="clothes">
+						<div class="clothes_img"><img src="./image/weitu5.png"></div>
+						<div class="buy">
+						<ul>
+							<li><img src="./image/tuoyuan2.png"></li>
+							<li><img src="./image/tuoyuan2.png"></li>
+							<li><img src="./image/tuoyuan2.png"></li>
+						</ul>												
+					</div>
+					</div>
+				</div>
+				<div class="sellWell">
+					<div class="like">
+						<p class="pin">热销</p>
+						<p class="heading">这里是大标题</p>
+						<p class="generalize">这里是一句概要小标题介绍</p>
+						<p class="amount">8.88元</p>
+					</div>
+					<div class="clothes">
+						<div class="clothes_img"><img src="./image/weitu5.png"></div>
+						<div class="buy">
+						<ul>
+							<li><img src="./image/tuoyuan2.png"></li>
+							<li><img src="./image/tuoyuan2.png"></li>
+							<li><img src="./image/tuoyuan2.png"></li>
+						</ul>												
+					</div>
+					</div>
+				</div>
+				<div class="sellWell">
+					<div class="like">
+						<p class="pin">热销</p>
+						<p class="heading">这里是大标题</p>
+						<p class="generalize">这里是一句概要小标题介绍</p>
+						<p class="amount">8.88元</p>
+					</div>
+					<div class="clothes">
+						<div class="clothes_img"><img src="./image/weitu5.png"></div>
+						<div class="buy">
+						<ul>
+							<li><img src="./image/tuoyuan2.png"></li>
+							<li><img src="./image/tuoyuan2.png"></li>
+							<li><img src="./image/tuoyuan2.png"></li>
+						</ul>												
+					</div>
+					</div>
+				</div>
+				<div class="sellWell cancel">
+					<div class="like">
+						<p class="pin">热销</p>
+						<p class="heading">这里是大标题</p>
+						<p class="generalize">这里是一句概要小标题介绍</p>
+						<p class="amount">8.88元</p>
+					</div>
+					<div class="clothes">
+						<div class="clothes_img"><img src="./image/weitu5.png"></div>
+						<div class="buy">
+						<ul>
+							<li><img src="./image/tuoyuan2.png"></li>
+							<li><img src="./image/tuoyuan2.png"></li>
+							<li><img src="./image/tuoyuan2.png"></li>
+						</ul>												
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+				<div class="copyright">
+				<div class="icon">
+					<div class="end">
+						<img src="./image/LOGO-Copy.png">
+					</div>
+					<div class="white"></div>
+				</div>
+				<div class="address">
+					<p class="network">包图网络科技</p>
+					<div class="postcode">
+						<p>邮编&nbsp;000000</p>
+						<p>电话&nbsp;0511-9999999</p>
+						<p>邮箱&nbsp;baotuwang@hr.com</p>
+						<p>地址&nbsp;北京市海淀区之兰路989号（包图大厦）</p>
+					</div>
+					<p class="beiJing">京ICP备000000000号-0</p><p  class="right">京公安网备案0000000000号</p>
+				</div>
+				<div class="btn">
+					<span>姓名：</span><input type="" name="">
+					<span>电话：</span><input type="" name="">
+					<span>留言：</span><div class="textarea"><textarea rows="9" cols="50" style="color:#fff; border:none;background:#2e2c2f; outline: none;"></textarea></div>
+					<div class="submit">提交</div>
+				</div>
+				</div>
+			</div>
+	</div>
+</body>
+</html>

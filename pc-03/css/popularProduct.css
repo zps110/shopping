@@ -1,0 +1,116 @@
+		.quotientr{
+			width:1416px;
+			height:46px;
+			color:#fff;
+			margin:0px auto;
+		}
+		.shangHai{
+			float:left;
+			color:#a0a1a4;
+			padding-top:18px;
+			font-size:16px;
+			font-family:"黑体";
+		}
+		.registered{
+			float:right;
+			width:250px;
+			height:100%;
+		}
+		.login{
+			font-family:"黑体";
+			float: left;
+			color:#a0a1a4;
+			font-size:17px;
+			padding-top:18px;
+			padding-right:22px;
+		}
+		.car{
+			float:left;
+			display:block;
+			height:18px;
+			padding-left:18px;
+			margin-top: 15px;
+		}
+		.shoppingCart{
+			font-family:"黑体";
+			float: right;
+			width:138px;
+			height:46px;
+			color:#fff;
+			background:#ed712d;
+			float:right;
+			font-size: 17px;
+		}
+		.shoppingCart p{
+			font-size:15px;
+			padding-top:17px;
+		}
+		.logo{
+			float:left;
+			width:146px;
+			height:41px;
+			margin-top:38px;
+		}
+		.logo img{
+			font-size:100% 100%;
+		}
+		.nav {
+			width:1416px;
+			height:117px;
+			margin:0px auto;
+		}
+		.nav ul{
+			float:left;
+			width:750px;
+			height:41px;
+			margin-top:38px;
+			margin-left:125px;
+		}
+		.nav ul li{
+			font-weight: bold;
+			font-family:"黑体";
+				font-size:16px;
+				float:left;
+				padding-top: 23px;
+				padding-right: 65px;
+		}
+		.input{
+			float:right;
+			width:340px;
+			height:56px;
+			margin-top:38px;
+			border:1px solid #ccc;
+		}
+		.inp{
+			float:left;
+			width:281px;
+			height:54px;
+			border:0px;
+		}
+		.magn img{	
+			margin:18px 0px 0px 19px;
+		}
+		.magnifier{
+			float:left;
+			width:54px;
+			height:100%;
+			border-left:1px solid #ccc;
+		}
+		.msg p{
+			color:#6d6d6d;
+			font-weight: bold;
+			font-family:"黑体";
+			font-size:13px;
+			width:242px;
+			height:15px;
+			margin-left:247px;
+			padding-top: 39px;
+			margin-bottom:15px;
+		}
+		.more{
+			display:block;
+			float:right;
+			margin-top:-9px;
+			height:14px;
+			padding:8px;
+		}

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./commen/baoTu.css">
+	<link rel="stylesheet" type="text/css" href="./css/settlement.css">
+	<style type="text/css">
+		.main{
+			width:100%;
+			height:2161px;
+			background: #f5f5f5;
+		}
+		.homePage{
+			width:98px;
+			height:14px;
+			font-size:17px;
+			padding-top:40px;
+			padding-bottom: 24px;
+			padding-left:252px;
+		}
+		.content{
+			width:1408px;
+			margin:0px auto;
+			height: 1975px;
+		}
+		.status{
+			width:1408px;
+			height:92px;
+			border-bottom: 1px solid #ccc;
+		}
+		.selected{
+			width:25px;
+			height: 25px;
+			float:left;
+			margin:34px 0px 0px 28px;
+			background-image: url(./image/fenzu.png);
+			background-size:100% 100%;
+		}
+		.selected_s{
+			margin:34px 93px 443px 28px;
+		}
+		.selected_c{
+			width:25px;
+			height: 25px;
+			float:left;
+			margin:34px 0px 0px 28px;
+			background-image: url(./image/fenzu1.png);
+			background-size:100% 100%;
+			margin:36px 93px 0px 28px;
+		}
+		.selectAll{
+			float:left;
+			font-size:26px;
+			line-height: 92px;
+			margin-left:19px;
+		}
+		.name{
+			float: left;
+			line-height: 92px;
+			margin-left:154px;
+		}
+		.tips{
+			float:right;
+			margin-right: 79px;
+			width:468px;
+			height: 100%;
+		}
+		.tips ul li{
+			float: left;
+			text-align: right;
+			height:100%;
+			line-height: 92px;
+			width:117px;
+		}
+		.accidentInsurance{
+			width:1354px;
+			height:519px;
+			margin-bottom:36px;
+		}
+		.check{
+			float: left;
+			width:1208px;
+			height:513px;
+			/*margin-left:130px;*/
+		}
+		.product_name{
+			width:100%;
+			height:120px;
+		}
+		.gift{
+			width:100%;
+			height:118px;
+			background: #f5f5f5;
+			padding-bottom:16px;
+		}
+		.biao_na{
+			float: left;
+			width:72px;
+			height:70px;
+			margin-left:34px;
+			margin-top:20px;
+			background: url(./image/liwu.png);
+			background-size: 100% 100%; 
+		}
+		.more{
+			width:1354px;
+			height:262px;
+		}
+		.biao{
+			float: left;
+			width:152px;
+			height:120px;
+		}
+		.dial{
+			float: left;
+			width:375px;
+			font-size:24px;
+			height:34px;
+			padding-top:52px;
+		}
+		.unitPrice{
+			float: left;
+			width:78px;
+			height:34px;
+			padding-top:52px;
+			padding-left:113px;
+		}
+		.quantity{
+			float: left;
+			width:135px;
+			height:43px;
+			margin-top:39px;
+			margin-left:75px;
+			border:1px solid #ccc;
+		}
+		.less{
+			float: left;
+			width:17px;
+			height:4px;
+			margin:17px 0px 0px 16px;
+			background: url(./image/jian.png);
+			background-size: 100% 100%;
+		}
+		.amount{
+			float: left;
+			font-size: 18px;
+			width:58px;
+			height:38px;
+			padding-left:59px;
+			font-size:12px;
+			padding-top:52px;
+			line-height: 38px;
+			text-align: center;
+		}
+		.addend{
+			float: right;
+			width:17px;
+			height:17px;
+			margin-right:15px;
+			margin-top:11px;
+			background: url(./image/jia.png);
+			background-size: 100% 100%;
+		}
+		.amouamount_one{
+			float: left;
+			width:8px;
+			height:19px;
+			margin:15px 0px 0px 29px;
+		}
+		.delete{
+			float: left;
+			width:38px;
+			height:40px;
+			margin-top:39px;
+			margin-left:116px;
+			background: url(./image/shanchu.png);
+			background-size: 100% 100%;
+		}
+		.away{
+			float:left;
+			width:199px;
+			height:31px;
+			font-size:24px;
+			margin-top:52px;	
+		}
+		.give{
+			float: left;
+			width:204px;
+			height:31px;
+			padding-left:501px;
+			padding-top:52px;
+		}
+		.more{
+			width:1208px;
+			height:261px;
+		}
+		.join{
+			width:100%;
+			height:65px;
+			/*line-height:501px;*/
+			border-bottom:1px solid #ccc;
+		}
+		.plus{
+			float:left;
+			width:49px;
+			height:100%;
+		}
+		.plus_s{
+			width:25px;
+			height:25px;
+			background-image: url(./image/xingzhuang1.png);
+			background-size:100% 100%;
+			margin:29px 0px 0px 23px;
+		}
+		.guarantee{
+			float:left;
+			width:199px;
+			font-size: 23px;
+			height:31px;
+			padding-left: 16px;
+			padding-top: 24px;
+		}
+		.understanding{
+			float:left;
+			width:159px;
+			color:#ed712d;
+			font-size: 23px;
+			height:31px;
+			padding-left: 22px;
+			padding-top: 24px;
+		}
+		.checklist{
+			width:1408px;
+			height:663px;
+		}
+		.total{
+			float:left;
+			width:1408px;
+			height: 86px;
+			margin-top:22px;
+			background: #fff;
+			/*margin-bottom:110px;*/
+		}
+		.carryOn{
+			float:left;
+			width:100px;
+			height:24px;
+			font-size:22px;
+			padding-left:39px;
+			padding-top:35px;
+		}
+		.seven{
+			float:left;
+			width:266px;
+			height:25px;
+			font-size:22px;
+			margin-top:35px;
+			margin-left:69px;
+		}
+		.nine{
+			float:left;
+			font-size:23px;
+			width:194px;
+			height: 38px;
+			margin-top:22px;
+			margin-left:419px;
+		}
+		.nine span{
+			font-size:32px;
+		}
+		.color{
+			color:#ed712d;
+		}
+		.settlement{
+			float:right;	
+			width:242px;
+			height: 82px;
+			line-height: 82px;
+			font-size:23px;
+			color:#fff;
+			text-align: center;
+			letter-spacing:0.1em;
+			font-weight:50px;
+			background: #ed712d;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="haer">
+					<div class="quotientr">
+					<p class="shangHai">上海包图电商科技信息有限公司</p>
+					<div class="registered">
+						<span class="login">登录</span>
+						<span class="login">注册</span>
+						<div class="shoppingCart"><i class="car"><img src="./image/gouwuche.png"></i><p>&nbsp;购物车(1)</p></div>
+					</div>
+					</div>
+			</div>
+			<div class="nav">
+				<div class="logo">
+					<img src="./image/LOGO2.png">
+				</div>
+				<ul>
+					<li>首页</li>
+					<li >公司简介</li>
+					<li>联系我们</li>
+					<li>售后服务</li>
+					<li class="color">常见问题</li>
+					<li>购物车</li>
+				</ul>
+				<div class="input">
+					<input class="inp"type="text" name="">
+					<div class="magnifier"><i class="magn">
+						<img src="./image/fangdajing.png">
+					</i></div>
+				</div>
+			</div>
+		<div class="main">
+			<p class="homePage">首页>购物车</p>
+			<div class="content">
+				<div class="status">
+					<div class="selected"></div>
+					<p class="selectAll">全选</p>
+					<p class="name">商品名称</p>
+					<div class="tips">
+						<ul>
+							<li>单价</li>
+							<li>数量</li>
+							<li>小计</li>
+							<li style="">操作</li>
+						</ul>
+					</div>
+				</div>
+				<div class="accidentInsurance">
+					<div class="selected selected_s"></div>
+					<div class="check">
+						<div class="product_name">
+							<div class="biao">
+								<div class="biao_na"></div>
+							</div>
+							<div class="dial">丹尼尔网红手表玫瑰金32毫米表盘</div>
+							<div class="unitPrice">9999元</div>
+							<div class="quantity">
+								<div class="less"></div>
+								<div class="amouamount_one">1</div>
+								<div class="addend"></div>	
+							</div>
+							<div class="amount">9999元</div>
+							<div class="delete"></div>
+						</div>
+						<div class="gift">
+							<div class="biao">
+								<div class="biao_na"></div>
+							</div>
+							<div class="away">
+								赠送精美礼盒一个
+							</div>
+							<div class="give">1</div>
+						</div>
+						<div class="more">
+							<div class="join">
+								<div class="plus">
+									<div class="plus_s"></div>
+								</div>
+								<div class="guarantee">意外保障服务套餐</div>
+								<div class="understanding">了解更多保护></div>
+							</div>
+							<div class="join">
+								<div class="plus">
+									<div class="plus_s"></div>
+								</div>
+								<div class="guarantee">意外保障服务套餐</div>
+								<div class="understanding">了解更多保护></div>
+							</div>
+							<div class="join">
+								<div class="plus">
+									<div class="plus_s"></div>
+								</div>
+								<div class="guarantee">意外保障服务套餐</div>
+								<div class="understanding">了解更多保护></div>
+							</div>
+							<div class="join">
+								<div class="plus">
+									<div class="plus_s"></div>
+								</div>
+								<div class="guarantee">意外保障服务套餐</div>
+								<div class="understanding">了解更多保护></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="accidentInsurance">
+					<div class="selected selected_s"></div>
+					<div class="check">
+						<div class="product_name">
+							<div class="biao">
+								<div class="biao_na"></div>
+							</div>
+							<div class="dial">丹尼尔网红手表玫瑰金32毫米表盘</div>
+							<div class="unitPrice">9999元</div>
+							<div class="quantity">
+								<div class="less"></div>
+								<div class="amouamount_one">1</div>
+								<div class="addend"></div>	
+							</div>
+							<div class="amount">9999元</div>
+							<div class="delete"></div>
+						</div>
+						<div class="gift">
+							<div class="biao">
+								<div class="biao_na"></div>
+							</div>
+							<div class="away">
+								赠送精美礼盒一个
+							</div>
+							<div class="give">1</div>
+						</div>
+						<div class="more">
+							<div class="join">
+								<div class="plus">
+									<div class="plus_s"></div>
+								</div>
+								<div class="guarantee">意外保障服务套餐</div>
+								<div class="understanding">了解更多保护></div>
+							</div>
+							<div class="join">
+								<div class="plus">
+									<div class="plus_s"></div>
+								</div>
+								<div class="guarantee">意外保障服务套餐</div>
+								<div class="understanding">了解更多保护></div>
+							</div>
+							<div class="join">
+								<div class="plus">
+									<div class="plus_s"></div>
+								</div>
+								<div class="guarantee">意外保障服务套餐</div>
+								<div class="understanding">了解更多保护></div>
+							</div>
+							<div class="join">
+								<div class="plus">
+									<div class="plus_s"></div>
+								</div>
+								<div class="guarantee">意外保障服务套餐</div>
+								<div class="understanding">了解更多保护></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="checklist">
+					<div class="selected selected_c"></div>
+					<div class="product_name">
+							<div class="biao">
+								<div class="biao_na"></div>
+							</div>
+							<div class="dial">丹尼尔网红手表玫瑰金32毫米表盘</div>
+							<div class="unitPrice">9999元</div>
+							<div class="quantity">
+								<div class="less"></div>
+								<div class="amouamount_one">1</div>
+								<div class="addend"></div>	
+							</div>
+							<div class="amount">9999元</div>
+							<div class="delete"></div>
+						</div>
+						<div class="selected selected_c"></div>
+					<div class="product_name">
+							<div class="biao">
+								<div class="biao_na"></div>
+							</div>
+							<div class="dial">丹尼尔网红手表玫瑰金32毫米表盘</div>
+							<div class="unitPrice">9999元</div>
+							<div class="quantity">
+								<div class="less"></div>
+								<div class="amouamount_one">1</div>
+								<div class="addend"></div>	
+							</div>
+							<div class="amount">9999元</div>
+							<div class="delete"></div>
+						</div>
+						<div class="selected selected_c"></div>
+					<div class="product_name">
+							<div class="biao">
+								<div class="biao_na"></div>
+							</div>
+							<div class="dial">丹尼尔网红手表玫瑰金32毫米表盘</div>
+							<div class="unitPrice">9999元</div>
+							<div class="quantity">
+								<div class="less"></div>
+								<div class="amouamount_one">1</div>
+								<div class="addend"></div>	
+							</div>
+							<div class="amount">9999元</div>
+							<div class="delete"></div>
+						</div>
+						<div class="selected selected_c"></div>
+					<div class="product_name">
+							<div class="biao">
+								<div class="biao_na"></div>
+							</div>
+							<div class="dial">丹尼尔网红手表玫瑰金32毫米表盘</div>
+							<div class="unitPrice">9999元</div>
+							<div class="quantity">
+								<div class="less"></div>
+								<div class="amouamount_one">1</div>
+								<div class="addend"></div>	
+							</div>
+							<div class="amount">9999元</div>
+							<div class="delete"></div>
+						</div>
+						<div class="selected selected_c"></div>
+					<div class="product_name">
+							<div class="biao">
+								<div class="biao_na"></div>
+							</div>
+							<div class="dial">丹尼尔网红手表玫瑰金32毫米表盘</div>
+							<div class="unitPrice">9999元</div>
+							<div class="quantity">
+								<div class="less"></div>
+								<div class="amouamount_one">1</div>
+								<div class="addend"></div>	
+							</div>
+							<div class="amount">9999元</div>
+							<div class="delete"></div>
+						</div>
+				</div>
+				<div class="total">
+					<div class="carryOn">继续购买</div>
+					<div class="seven">共<span class="color">7</span>件商品，&nbsp;已选择<span class="color">2</span>件</div>
+					<div class="nine color">合集:&nbsp;&nbsp;<span>9999元</span></div>
+					<div class="settlement">去结算</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+				<div class="copyright">
+				<div class="icon">
+					<div class="end">
+						<img src="./image/LOGO-Copy.png">
+					</div>
+					<div class="white"></div>
+				</div>
+				<div class="address">
+					<p class="network">包图网络科技</p>
+					<div class="postcode">
+						<p>邮编&nbsp;000000</p>
+						<p>电话&nbsp;0511-9999999</p>
+						<p>邮箱&nbsp;baotuwang@hr.com</p>
+						<p>地址&nbsp;北京市海淀区之兰路989号（包图大厦）</p>
+					</div>
+					<p class="beiJing">京ICP备000000000号-0</p><p  class="right">京公安网备案0000000000号</p>
+				</div>
+				<div class="btn">
+					<span>姓名：</span><input type="" name="">
+					<span>电话：</span><input type="" name="">
+					<span>留言：</span><div class="textarea"><textarea rows="9" cols="50" style="color:#fff; border:none;background:#2e2c2f; outline: none;"></textarea></div>
+					<div class="submit">提交</div>
+				</div>
+				</div>
+			</div>
+	</div>
+</body>
+</html>
